@@ -1,0 +1,462 @@
+body{
+    font: 15px/1.5 Raleway, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Global */
+
+
+
+/* Header */
+
+.container {
+    width: 80%; 
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f5f5f5;
+    min-height: 50px;
+}
+
+header nav{
+    float: right;
+    margin-top: 5px;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li , .header_nav {
+    float: left;
+    display: inline-flex;
+    padding-top: 5px;
+}
+
+header li {
+    color: #444444;
+    padding: 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header .container nav ul span {
+    padding: 10px;
+}
+
+header .icon {
+    width: 20px;
+    height: 20px;
+    color: 444444;
+    float: right;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+header li .current , .li_hover:hover {
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #b2dd4c;
+}
+
+
+
+
+
+
+/* Show Case  */
+
+
+
+
+
+
+#branding img{
+    width: 143px;
+    height: 90px;
+    float: left; 
+    padding-top: 0px
+}
+
+#showcase {
+    width: auto;
+    height: 825px;
+    background-image: url(../Images/background.jpg);
+    background-size: 1440px 810px;
+    background-repeat: no-repeat;
+    background-position: 178px -28px;
+        margin: 0px 0px 100px 50px;
+}
+
+.showcase_container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 0px
+}
+
+p.text_branding {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 140px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+
+.description {
+    width: 25%;
+    height: 65px;
+    color: gray;
+    margin-left: 150px;
+}
+
+.buttons {
+    margin-left: 150px;
+}
+
+.check {
+    color: #ffffff;
+    background-color: #b2dd4c;  
+    margin: 5px 15px 0px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0px;
+    padding: 15px 25px ;
+    font-family: raleway;
+    text-align: center;
+}
+
+.check:hover {
+    background-color: yellowgreen;
+}
+
+.buy {
+    color: #555555;
+    background-color: #f5f5f5 ;
+    margin: 0px 15px 0px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    padding: 15px 25px ;
+    font-family: Raleway;
+    text-align: center;
+}
+
+.buy:hover {
+    background-color: #cccccc;
+    color: #f5f5f5;
+}
+
+
+
+
+
+/* Shop Case */
+
+
+
+
+
+
+#shopcase {
+    width: 80%;
+    margin: auto;
+    max-height: 600px;
+    margin-bottom: 200px;
+}
+
+.features_container {
+    width: auto;
+    margin: auto;
+    max-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 56px;
+}
+
+.feature_title {
+    font-size: 32px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feature_desc {
+    color: gray;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.features {
+    max-width: 250px;
+    max-height: 550px;
+    margin: auto 20px;
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(225deg, #b2dd5c, lightgreen);
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px auto; 
+}
+
+.fas {
+    font-size: 40px;
+    color: #ffffff;
+    padding: 25px;
+    margin: 5px auto;
+}
+
+.features  h3, .features p {
+    text-align: center;
+}
+
+.features .buyNow {
+    color: #555555;
+    background-color: #f5f5f5 ;
+    margin: 20px auto ;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    padding: 8px 24px ;
+    font-family: Raleway;
+    text-align: center;
+    display: inline-block;
+}
+
+.buyNow:hover {
+    background-color: #cccccc;
+    color: #f5f5f5;
+}
+
+
+
+
+
+/* Mobile App */
+
+
+
+
+
+
+
+.app_container {
+    width: 80%;
+    height: 700px;
+    margin: 0px auto;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.app_img {
+    height: auto;
+    width: 360px ;
+    float: right;
+}
+
+.app_description .app_heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.app_description {
+    width: 35%;
+    height: auto;
+    color: gray;
+    font-size: 12px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.download img {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* Products */
+
+
+
+
+
+.product_title {
+    font-size: 32px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product_desc {
+    color: gray;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.main_products_container {
+    display: flex;
+    width: 80%;
+    max-height: 800px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+}
+}
+
+.product_container {
+    flex-basis: 275px;
+    max-height: 600px;
+}
+
+.product_container img {
+    width: 250px;
+    height: 250px;
+}
+
+.product {
+    width: 275px;
+    max-height: 300px
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.information {
+    border: 2px solid gainsboro;
+    width: 275px;
+    margin-bottom: 60px;
+    margin-bottom: 100px;
+}
+
+.name {
+    width: 50%;
+    font-weight: bold;
+    position: relative;
+    margin-top: 25px;
+    left: -23px;
+    top: -12px;
+}
+
+.rating {
+    width: 50%;
+    font-weight: bold;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+
+.details , .cart {
+    color: #afafaf;
+    font-size: 12px;
+    flex-direction: row;
+    font-family: Raleway;
+    font-weight: bold;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid gainsboro;
+}
+
+.details {
+    border-right: 2px solid gainsboro;
+}
+
+.checked {
+    color: #b2dd5c;
+}
+
+.fa-star {
+    font-size: 15px;
+    flex-direction: row;
+    padding: 0px;
+    position: relative;
+    top: -56px;
+    right: -87px;
+}
+
+.product p {
+    float: left;
+    position: relative;
+    left: -160px;
+    display: inline-block;
+    top: 44px;
+    color: #afafaf;
+}
+
+
+
+
+
+/* Add To Cart */
+
+
+
+
+.add {
+    width: 100%;
+    height: 100px;
+    background-color: #eeeeee;
+    display: flex;
+}
+
+.add p {
+    color: gray;
+    margin: 45px;
+}
+
+.add button {
+    color: #ffffff;
+    background-color: #b2dd4c;
+    margin: 5px 15px 0px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0px;
+    padding: 2px 61px;
+    font-family: raleway;
+    text-align: center;
+    height: 54px;
+    position: relative;
+    right: -525px;
+    top: 20px;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #444444;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: #ffffff;
+    font-weight: bold;
+}
